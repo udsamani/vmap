@@ -1,6 +1,9 @@
 package vmap
 
-import "fmt"
+import (
+  "fmt",
+  "binary"
+)
 
 
 // OMap stands for optimized map. This map utilizes the fact that GO's runtime does not kick in 
